@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <p><a th:href="@{/locale}" th:text="#{index.locale.en}"></a></p>
+    <p><a th:href="@{/locale}" th:text="#{index.locale.fr}"></a></p>
+    <p><a th:href="@{/locale}" th:text="#{index.locale.es}"></a></p>
+
+    <h1 th:text="#{index.welcome.hello}"></h1>
+    <h1 th:text="#{index.welcome.message}"></h1>
+</body>
+</html>
